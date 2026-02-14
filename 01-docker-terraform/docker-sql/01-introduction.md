@@ -88,7 +88,7 @@ We can restart one of them, but we won't do it, because it's not a good practice
 docker rm `docker ps -aq`
 ```
 
-Next time we run something, we add `--rm`:
+Next time we run something, we add `--rm`
 
 ```bash
 docker run -it --rm ubuntu

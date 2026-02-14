@@ -23,7 +23,7 @@ In this workshop, we'll build pipelines that:
 
 Let's create an example pipeline. First, create a directory `pipeline` and inside, create a file  `pipeline.py`:
 
-```python
+```pythone
 import sys
 print("arguments", sys.argv)
 
